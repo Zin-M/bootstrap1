@@ -1,0 +1,283 @@
+#logo{
+	width: 150px;
+	height: 50px;
+}
+
+#banner{
+	width: 100%;
+	height: 100vh;
+	background:linear-gradient(to bottom,rgba(6,12,34,0.8)0,rgba(6,12,34,0.8)100%),
+	url(photo/1.jpg);
+	
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#headerwhitespace{
+	margin-top: 13%;
+}
+
+#marketing{
+	color: tomato;
+}
+
+a#aboutbtn{
+	border-radius: 50px;
+	padding: 12px 32px;
+	border:1px solid #f82249;
+	color: #fff;
+
+}
+
+a#aboutbtn:hover{
+	background-color:#f82249;
+	color: #fff;
+	transition: 0.5s;
+	animation-delay: 0.8s;
+	-webkit-animation-delay:0.8s;
+	letter-spacing: 1px;
+	cursor: pointer;  
+}
+
+a#buyticket{
+	border-radius: 50px;
+	padding: 12px 32px;
+	border:1px solid #f82249;
+	background-color:#f82249;
+	color: #fff;
+	
+	
+}
+
+a#buyticket:hover{
+	background-color: transparent;
+	transition: 0.5s;
+	animation-delay: 0.8s;
+	-webkit-animation-delay:0.8s;
+	letter-spacing: 1px;
+	cursor: pointer;  
+}
+
+a.nav-link{
+	color: rgba(202,206,221,0.8);
+	font-weight: 600;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+a.nav-link.active, a.nav-link:hover{
+	border-bottom: 2px solid #f82249;
+	transition: 0.5s;
+	animation-delay: 0.8s;
+
+}
+
+.about{
+	width: 100%;
+	height: 50vh;
+	background:linear-gradient(to bottom,rgba(6,12,34,0.8)0,rgba(6,12,34,0.8)100%),
+	url(photo/4.jpg);
+	
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#speaker{
+	text-align: center;
+}
+
+
+#p_speaker{
+	text-align: center;
+	color: gray;
+}
+
+
+#span1{
+	background-color: rgb(255,255,255,0.5);
+	font-size: 30px;
+	position: absolute;
+	top: 75%;
+	left: 5%;
+	padding: 5px;
+	padding-right: 100px;
+	background-color:black;
+	color: white;
+	
+}
+
+#hr{
+	color: red;
+	width: 50px;
+}
+
+.navbar-default.scrolled{
+	background-color: rgba(6,12,34,1)
+}
+
+#schedule{
+	text-align: center;
+	margin-top: 50px;
+}
+
+#schedule_span{
+	text-align: center;
+	margin-top: 10px; 
+}
+
+#schedulebuttons{
+	margin-top: 30px;
+}
+
+#schedule_button1{
+	border-radius: 50px;
+	padding: 12px 150px;
+	border:1px solid #f82249;
+	background-color: #5D5452;
+
+}
+
+#schedule_button1:hover{
+	background-color:#f82249;
+	color: #fff;
+	transition: 0.5s;
+	animation-delay: 0.8s;
+	-webkit-animation-delay:0.8s;
+	letter-spacing: 1px;
+	cursor: pointer;  
+}
+
+#schedule_button2{
+	border-radius: 50px;
+	padding: 12px 150px;
+	border:1px solid #f82249;
+	background-color: #5D5452;
+
+}
+
+#schedule_button2:hover{
+	background-color:#f82249;
+	color: #fff;
+	transition: 0.5s;
+	animation-delay: 0.8s;
+	-webkit-animation-delay:0.8s;
+	letter-spacing: 1px;
+	cursor: pointer;  
+}
+
+#schedule_button3{
+	border-radius: 50px;
+	padding: 12px 150px;
+	border:1px solid #f82249;
+	background-color: #5D5452;
+
+}
+
+#schedule_button3:hover{
+	background-color:#f82249;
+	color: #fff;
+	transition: 0.5s;
+	animation-delay: 0.8s;
+	-webkit-animation-delay:0.8s;
+	letter-spacing: 1px;
+	cursor: pointer;  
+}
+
+#schedule_p{
+	margin-top: 15px;
+	text-align: center;
+}
+
+#schedule_text{
+	color: #7B83B6 ;
+}
+
+#schedule_images{
+	border-radius: 50%;
+}
+
+#gallery{
+	width: 100px;
+	height: 200px;
+}
+
+.sponsor_photo{
+	width: 200px;
+	height: 100px;
+}
+
+#sponsor{
+	margin-left: 300px;
+	margin-top: 20px;
+
+	}
+
+#sponsor_h{
+	text-align: center;
+}
+
+#sponsor1{
+	margin-left: 300px;
+	
+	}
+
+
+#faq_button{
+	text-decoration: none;
+	color: black;
+}
+
+#contact_h{
+	margin-top: 50px;
+}
+
+#contact_input{
+	width: 100%;
+}
+
+
+#contact_message{
+	width: 100%;
+	height: 100px;
+}
+
+
+
+#contact_button{
+	border-radius: 50px;
+	padding: 12px 70px;
+	border:1px solid #f82249;
+	background-color: #f82249;
+	height: 70px;
+	
+}
+
+#footer_label{
+	color:#f82249;
+}
+
+#footer_hr{
+	background-color: #f82249;
+}
+
+#footer_span{
+
+
+	background-color: white;
+	background-color: opacity 0.3;
+}
+
+
+#carouselExampleIndicators{
+	width: 1000px;
+	height: 700px;
+	margin-left: 5%;
+
+}
+
+
+
+
+
